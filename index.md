@@ -17,7 +17,7 @@ Optimistic speech about climate change didn't perform statistically different th
 
 With the model, we can only predict that an employee will quit with 45% precision, more variables are needed for higher precision.   
 
-<img src="empperformance.PNG?raw=true"/>
+<img src="empperformace.PNG?raw=true"/>
 
 ---
 ### Exploratory Data Analysis
