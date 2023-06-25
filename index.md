@@ -8,19 +8,37 @@
 
 Optimistic speech about climate change didn't perform statistically different than optimistic speech.
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/turnover.jpg?raw=true"/>
 
 ---
 ### Logistic Regression
 
 [Can we predict if an employee will quiet based on their working hours, performance and salary?](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+With the model, we can only predict that an employee will quit with 45% precision, more variables are needed for higher precision.   
+
+<img src="turnover.jpg?raw=true"/>
 
 ---
 ### Exploratory Data Analysis
 
 [Did F1 cars' performance improved constantly in the last 20 years? Who is the most wining team and many more analysis.](http://example.com/)
+
+Surprisingly no! We observe a dramatic speed decline in 2015 however it picks up from 2015 to today.
+
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+---
+### Game Simulations
+
+[Rock Paper Scissors](http://example.com/)
+
+<img src="rockpaperse.jpg?raw=true"/>
+
+[Guess the Number](http://example.com/)
+
+<img src="guessthenumber.jpg?raw=true"/>
 
 ---
 
