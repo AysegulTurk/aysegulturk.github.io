@@ -26,7 +26,7 @@ With the model, we can only predict that an employee will quit with 45% precisio
 
 Surprisingly no! We observe a dramatic speed decline in 2015 however it picks up from 2015 to today.
 
-<img src="images/F1pic.PNG?raw=true"/>
+<img src="images/f1pic.PNG?raw=true"/>
 
 ---
 ---
@@ -34,7 +34,7 @@ Surprisingly no! We observe a dramatic speed decline in 2015 however it picks up
 
 [Rock Paper Scissors](http://example.com/)
 
-<img src="rockpaperse.jpg?raw=true"/>
+<img src="rockpaperse.png?raw=true"/>
 
 [Guess the Number](http://example.com/)
 
