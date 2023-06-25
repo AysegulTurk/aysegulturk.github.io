@@ -29,7 +29,6 @@ Surprisingly no! We observe a dramatic speed decline in 2015 however it picks up
 <img src="images/f1pic.PNG?raw=true"/>
 
 ---
----
 ### Game Simulations
 
 [Rock Paper Scissors](http://example.com/)
