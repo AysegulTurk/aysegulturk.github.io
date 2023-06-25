@@ -5,6 +5,9 @@
 ### A/B Testing
 
 [Does optimistic speech about climate change has better convince rate than pessimistic speech?](/sample_page)
+
+Optimistic speech about climate change didn't perform statistically different than optimistic speech.
+
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
