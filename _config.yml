@@ -8,6 +8,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   PostGraduate Diploma in Business Analytics 
   <br><br>
   <a href="https://www.linkedin.com/in/aysegulturk">View My LinkedIn Profile</a> 
+
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
