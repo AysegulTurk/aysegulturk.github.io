@@ -1,10 +1,10 @@
-## Portfolio
+## Selected Data Science Projects
 
 ---
 
-### Category Name 1 
+### A/B Testing
 
-[Project 1 Title](/sample_page)
+[Does optimistic speech about climate change has better convince rate than pessimistic speech?](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
