@@ -1,11 +1,13 @@
-title: John Doe # your name (or website title) here
+title: Aysegul Turk # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Data scientist with 4+ years of analytics and consulting experience in automotive and energy industries and a postgradute diploma in Business Analytics. Previously worked at Uni-Select, Shell, Ford Motor Company of Australia and Deloitte.   
   <br><br>
-  Second description 
+  Education
+  Industrial Engineering, Operations Research  
+  Business Analytics PostGraduate Diploma
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/aysegulturk">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
