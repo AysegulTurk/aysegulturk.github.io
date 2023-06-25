@@ -8,7 +8,7 @@
 
 Optimistic speech about climate change didn't perform statistically different than optimistic speech.
 
-<img src="images/turnover.jpg?raw=true"/>
+<img src="images/climate.PNG?raw=true"/>
 
 ---
 ### Logistic Regression
@@ -17,7 +17,7 @@ Optimistic speech about climate change didn't perform statistically different th
 
 With the model, we can only predict that an employee will quit with 45% precision, more variables are needed for higher precision.   
 
-<img src="turnover.jpg?raw=true"/>
+<img src="empperformance.PNG?raw=true"/>
 
 ---
 ### Exploratory Data Analysis
@@ -26,7 +26,7 @@ With the model, we can only predict that an employee will quit with 45% precisio
 
 Surprisingly no! We observe a dramatic speed decline in 2015 however it picks up from 2015 to today.
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/F1pic.PNG?raw=true"/>
 
 ---
 ---
