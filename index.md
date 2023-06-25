@@ -17,7 +17,7 @@ Optimistic speech about climate change didn't perform statistically different th
 
 With the model, we can only predict that an employee will quit with 45% precision, more variables are needed for higher precision.   
 
-<img src="empperformace.PNG?raw=true"/>
+<img src="images/empperformace.PNG?raw=true"/>
 
 ---
 ### Exploratory Data Analysis
@@ -33,11 +33,11 @@ Surprisingly no! We observe a dramatic speed decline in 2015 however it picks up
 
 [Rock Paper Scissors](http://example.com/)
 
-<img src="rockpaperse.png?raw=true"/>
+<img src="images/rockpaperse.png?raw=true"/>
 
 [Guess the Number](http://example.com/)
 
-<img src="guessthenumber.jpg?raw=true"/>
+<img src="images/guessthenumber.jpg?raw=true"/>
 
 ---
 
