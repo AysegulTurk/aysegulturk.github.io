@@ -11,11 +11,15 @@ Optimistic speech about climate change didn't perform statistically different th
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+### Logistic Regression
+
+[Can we predict if an employee will quiet based on their working hours, performance and salary?](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+### Exploratory Data Analysis
+
+[Did F1 cars' performance improved constantly in the last 20 years? Who is the most wining team and many more analysis.](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
