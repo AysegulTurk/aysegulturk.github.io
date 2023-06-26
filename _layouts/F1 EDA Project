@@ -1,0 +1,400 @@
+#Importing packages to use
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+%matplotlib inline
+#Loading the datasets
+results = pd.read_csv(r'C:\Users\aturk\Downloads\results.csv', header=0)
+races=pd.read_csv(r'C:\Users\aturk\Downloads\races.csv', header=0)
+drivers=pd.read_csv(r'C:\Users\aturk\Downloads\drivers.csv', header=0)
+constructors=pd.read_csv(r'C:\Users\aturk\Downloads\constructors.csv', header=0)
+results.info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 25840 entries, 0 to 25839
+Data columns (total 18 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   resultId         25840 non-null  int64  
+ 1   raceId           25840 non-null  int64  
+ 2   driverId         25840 non-null  int64  
+ 3   constructorId    25840 non-null  int64  
+ 4   number           25840 non-null  object 
+ 5   grid             25840 non-null  int64  
+ 6   position         25840 non-null  object 
+ 7   positionText     25840 non-null  object 
+ 8   positionOrder    25840 non-null  int64  
+ 9   points           25840 non-null  float64
+ 10  laps             25840 non-null  int64  
+ 11  time             25840 non-null  object 
+ 12  milliseconds     25840 non-null  object 
+ 13  fastestLap       25840 non-null  object 
+ 14  rank             25840 non-null  object 
+ 15  fastestLapTime   25840 non-null  object 
+ 16  fastestLapSpeed  25840 non-null  object 
+ 17  statusId         25840 non-null  int64  
+dtypes: float64(1), int64(8), object(9)
+memory usage: 3.5+ MB
+races.info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1102 entries, 0 to 1101
+Data columns (total 18 columns):
+ #   Column       Non-Null Count  Dtype 
+---  ------       --------------  ----- 
+ 0   raceId       1102 non-null   int64 
+ 1   year         1102 non-null   int64 
+ 2   round        1102 non-null   int64 
+ 3   circuitId    1102 non-null   int64 
+ 4   name         1102 non-null   object
+ 5   date         1102 non-null   object
+ 6   time         1102 non-null   object
+ 7   url          1102 non-null   object
+ 8   fp1_date     1102 non-null   object
+ 9   fp1_time     1102 non-null   object
+ 10  fp2_date     1102 non-null   object
+ 11  fp2_time     1102 non-null   object
+ 12  fp3_date     1102 non-null   object
+ 13  fp3_time     1102 non-null   object
+ 14  quali_date   1102 non-null   object
+ 15  quali_time   1102 non-null   object
+ 16  sprint_date  1102 non-null   object
+ 17  sprint_time  1102 non-null   object
+dtypes: int64(4), object(14)
+memory usage: 155.1+ KB
+drivers.info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 857 entries, 0 to 856
+Data columns (total 9 columns):
+ #   Column       Non-Null Count  Dtype 
+---  ------       --------------  ----- 
+ 0   driverId     857 non-null    int64 
+ 1   driverRef    857 non-null    object
+ 2   number       857 non-null    object
+ 3   code         857 non-null    object
+ 4   forename     857 non-null    object
+ 5   surname      857 non-null    object
+ 6   dob          857 non-null    object
+ 7   nationality  857 non-null    object
+ 8   url          857 non-null    object
+dtypes: int64(1), object(8)
+memory usage: 60.4+ KB
+constructors.info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 211 entries, 0 to 210
+Data columns (total 5 columns):
+ #   Column          Non-Null Count  Dtype 
+---  ------          --------------  ----- 
+ 0   constructorId   211 non-null    int64 
+ 1   constructorRef  211 non-null    object
+ 2   name            211 non-null    object
+ 3   nationality     211 non-null    object
+ 4   url             211 non-null    object
+dtypes: int64(1), object(4)
+memory usage: 8.4+ KB
+#Left Joint of results and races datasets, merging results dataset with specific columns of races datasets 
+df= pd.merge(results, races[["raceId","year","name","round"]], on="raceId", how="left")
+df.info()
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 25840 entries, 0 to 25839
+Data columns (total 21 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   resultId         25840 non-null  int64  
+ 1   raceId           25840 non-null  int64  
+ 2   driverId         25840 non-null  int64  
+ 3   constructorId    25840 non-null  int64  
+ 4   number           25840 non-null  object 
+ 5   grid             25840 non-null  int64  
+ 6   position         25840 non-null  object 
+ 7   positionText     25840 non-null  object 
+ 8   positionOrder    25840 non-null  int64  
+ 9   points           25840 non-null  float64
+ 10  laps             25840 non-null  int64  
+ 11  time             25840 non-null  object 
+ 12  milliseconds     25840 non-null  object 
+ 13  fastestLap       25840 non-null  object 
+ 14  rank             25840 non-null  object 
+ 15  fastestLapTime   25840 non-null  object 
+ 16  fastestLapSpeed  25840 non-null  object 
+ 17  statusId         25840 non-null  int64  
+ 18  year             25840 non-null  int64  
+ 19  name             25840 non-null  object 
+ 20  round            25840 non-null  int64  
+dtypes: float64(1), int64(10), object(10)
+memory usage: 4.3+ MB
+#Now merging driver and constructor datasets with df
+df=pd.merge(df, drivers[["driverId","driverRef","nationality"]], on="driverId", how="left")
+df=pd.merge(df, constructors[["constructorId","name","nationality"]], on="constructorId", how="left")
+df.info()
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 25840 entries, 0 to 25839
+Data columns (total 25 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   resultId         25840 non-null  int64  
+ 1   raceId           25840 non-null  int64  
+ 2   driverId         25840 non-null  int64  
+ 3   constructorId    25840 non-null  int64  
+ 4   number           25840 non-null  object 
+ 5   grid             25840 non-null  int64  
+ 6   position         25840 non-null  object 
+ 7   positionText     25840 non-null  object 
+ 8   positionOrder    25840 non-null  int64  
+ 9   points           25840 non-null  float64
+ 10  laps             25840 non-null  int64  
+ 11  time             25840 non-null  object 
+ 12  milliseconds     25840 non-null  object 
+ 13  fastestLap       25840 non-null  object 
+ 14  rank             25840 non-null  object 
+ 15  fastestLapTime   25840 non-null  object 
+ 16  fastestLapSpeed  25840 non-null  object 
+ 17  statusId         25840 non-null  int64  
+ 18  year             25840 non-null  int64  
+ 19  name_x           25840 non-null  object 
+ 20  round            25840 non-null  int64  
+ 21  driverRef        25840 non-null  object 
+ 22  nationality_x    25840 non-null  object 
+ 23  name_y           25840 non-null  object 
+ 24  nationality_y    25840 non-null  object 
+dtypes: float64(1), int64(10), object(14)
+memory usage: 5.1+ MB
+df.head()
+resultId	raceId	driverId	constructorId	number	grid	position	positionText	positionOrder	points	...	fastestLapTime	fastestLapSpeed	statusId	year	name_x	round	driverRef	nationality_x	name_y	nationality_y
+0	1	18	1	1	22	1	1	1	1	10.0	...	1:27.452	218.300	1	2008	Australian Grand Prix	1	hamilton	British	McLaren	British
+1	2	18	2	2	3	5	2	2	2	8.0	...	1:27.739	217.586	1	2008	Australian Grand Prix	1	heidfeld	German	BMW Sauber	German
+2	3	18	3	3	7	7	3	3	3	6.0	...	1:28.090	216.719	1	2008	Australian Grand Prix	1	rosberg	German	Williams	British
+3	4	18	4	4	5	11	4	4	4	5.0	...	1:28.603	215.464	1	2008	Australian Grand Prix	1	alonso	Spanish	Renault	French
+4	5	18	5	1	23	3	5	5	5	4.0	...	1:27.418	218.385	1	2008	Australian Grand Prix	1	kovalainen	Finnish	McLaren	British
+5 rows × 25 columns
+
+#Dropping unnecessary columns
+df.drop(["number", 'position','positionText','laps','fastestLap','statusId','resultId','raceId','driverId','constructorId'], axis=1, inplace= True)
+df.head()
+grid	positionOrder	points	time	milliseconds	rank	fastestLapTime	fastestLapSpeed	year	name_x	round	driverRef	nationality_x	name_y	nationality_y
+0	1	1	10.0	1:34:50.616	5690616	2	1:27.452	218.300	2008	Australian Grand Prix	1	hamilton	British	McLaren	British
+1	5	2	8.0	+5.478	5696094	3	1:27.739	217.586	2008	Australian Grand Prix	1	heidfeld	German	BMW Sauber	German
+2	7	3	6.0	+8.163	5698779	5	1:28.090	216.719	2008	Australian Grand Prix	1	rosberg	German	Williams	British
+3	11	4	5.0	+17.181	5707797	7	1:28.603	215.464	2008	Australian Grand Prix	1	alonso	Spanish	Renault	French
+4	3	5	4.0	+18.014	5708630	1	1:27.418	218.385	2008	Australian Grand Prix	1	kovalainen	Finnish	McLaren	British
+#Renaming some columns
+df.rename(columns={'driverRef':'DriverName','rank':'fastest_lap_rank','name_x':'gp_place','nationality_x':'driver_nationality','name_y':'constructor_name','nationality_y':'constructor_nationality','driver_ref':'driver','positionOrder':'Finishing_position','grid':'Starting_position'}, inplace=True)
+df.head()
+Starting_position	Finishing_position	points	time	milliseconds	fastest_lap_rank	fastestLapTime	fastestLapSpeed	year	gp_place	round	DriverName	driver_nationality	constructor_name	constructor_nationality
+0	1	1	10.0	1:34:50.616	5690616	2	1:27.452	218.300	2008	Australian Grand Prix	1	hamilton	British	McLaren	British
+1	5	2	8.0	+5.478	5696094	3	1:27.739	217.586	2008	Australian Grand Prix	1	heidfeld	German	BMW Sauber	German
+2	7	3	6.0	+8.163	5698779	5	1:28.090	216.719	2008	Australian Grand Prix	1	rosberg	German	Williams	British
+3	11	4	5.0	+17.181	5707797	7	1:28.603	215.464	2008	Australian Grand Prix	1	alonso	Spanish	Renault	French
+4	3	5	4.0	+18.014	5708630	1	1:27.418	218.385	2008	Australian Grand Prix	1	kovalainen	Finnish	McLaren	British
+print(df['year'].unique())
+[2008 2007 2006 2005 2004 2003 2002 2001 2000 1999 1998 1997 1996 1995
+ 1994 1993 1992 1991 1990 2009 1989 1988 1987 1986 1985 1984 1983 1982
+ 1981 1980 1979 1978 1977 1976 1975 1974 1973 1972 1971 1970 1969 1968
+ 1967 1966 1965 1964 1963 1962 1961 1960 1959 1958 1957 1956 1955 1954
+ 1953 1952 1951 1950 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019
+ 2020 2021 2022]
+#2019 data is incomplete, so drop 2019 data
+df=df[df['year']!=2019]
+print(df['year'].unique())
+[2008 2007 2006 2005 2004 2003 2002 2001 2000 1999 1998 1997 1996 1995
+ 1994 1993 1992 1991 1990 2009 1989 1988 1987 1986 1985 1984 1983 1982
+ 1981 1980 1979 1978 1977 1976 1975 1974 1973 1972 1971 1970 1969 1968
+ 1967 1966 1965 1964 1963 1962 1961 1960 1959 1958 1957 1956 1955 1954
+ 1953 1952 1951 1950 2010 2011 2012 2013 2014 2015 2016 2017 2018 2020
+ 2021 2022]
+#Sort values based on year, round and position order
+df=df.sort_values(by=["year",'round','Finishing_position'], ascending=[False, True, True])
+#we see that if a driver didn't finish a race, their time is showsn as \N
+df.tail(10)
+Starting_position	Finishing_position	points	time	milliseconds	fastest_lap_rank	fastestLapTime	fastestLapSpeed	year	gp_place	round	DriverName	driver_nationality	constructor_name	constructor_nationality
+20166	25	18	0.0	\N	\N	\N	\N	\N	1950	Italian Grand Prix	7	biondetti	Italian	Ferrari	Italian
+20167	16	19	0.0	\N	\N	\N	\N	\N	1950	Italian Grand Prix	7	louveau	French	Talbot-Lago	French
+20168	26	20	0.0	\N	\N	\N	\N	\N	1950	Italian Grand Prix	7	comotti	Italian	Maserati	Italian
+20169	12	21	0.0	\N	\N	\N	\N	\N	1950	Italian Grand Prix	7	trintignant	French	Simca	French
+20170	19	22	0.0	\N	\N	\N	\N	\N	1950	Italian Grand Prix	7	chiron	Monegasque	Maserati	Italian
+20171	4	23	0.0	\N	\N	\N	\N	\N	1950	Italian Grand Prix	7	sanesi	Italian	Alfa Romeo	Swiss
+20172	10	24	0.0	\N	\N	\N	\N	\N	1950	Italian Grand Prix	7	manzon	French	Simca	French
+20173	15	25	0.0	\N	\N	\N	\N	\N	1950	Italian Grand Prix	7	bira	Thai	Maserati	Italian
+20174	27	26	0.0	\N	\N	\N	\N	\N	1950	Italian Grand Prix	7	pietsch	German	Maserati	Italian
+20175	23	27	0.0	\N	\N	\N	\N	\N	1950	Italian Grand Prix	7	bonetto	Italian	Milano	Italian
+#Replacing \N values with proper NaN
+df.time.replace('\\N',np.nan, inplace=True)
+df.milliseconds.replace('\\N',np.nan, inplace=True)
+df.fastest_lap_rank.replace('\\N',np.nan, inplace=True)
+df.fastestLapTime.replace('\\N',np.nan, inplace=True)
+df.fastestLapSpeed.replace('\\N',np.nan, inplace=True)
+df.tail(10)
+Starting_position	Finishing_position	points	time	milliseconds	fastest_lap_rank	fastestLapTime	fastestLapSpeed	year	gp_place	round	DriverName	driver_nationality	constructor_name	constructor_nationality
+20166	25	18	0.0	NaN	NaN	NaN	NaN	NaN	1950	Italian Grand Prix	7	biondetti	Italian	Ferrari	Italian
+20167	16	19	0.0	NaN	NaN	NaN	NaN	NaN	1950	Italian Grand Prix	7	louveau	French	Talbot-Lago	French
+20168	26	20	0.0	NaN	NaN	NaN	NaN	NaN	1950	Italian Grand Prix	7	comotti	Italian	Maserati	Italian
+20169	12	21	0.0	NaN	NaN	NaN	NaN	NaN	1950	Italian Grand Prix	7	trintignant	French	Simca	French
+20170	19	22	0.0	NaN	NaN	NaN	NaN	NaN	1950	Italian Grand Prix	7	chiron	Monegasque	Maserati	Italian
+20171	4	23	0.0	NaN	NaN	NaN	NaN	NaN	1950	Italian Grand Prix	7	sanesi	Italian	Alfa Romeo	Swiss
+20172	10	24	0.0	NaN	NaN	NaN	NaN	NaN	1950	Italian Grand Prix	7	manzon	French	Simca	French
+20173	15	25	0.0	NaN	NaN	NaN	NaN	NaN	1950	Italian Grand Prix	7	bira	Thai	Maserati	Italian
+20174	27	26	0.0	NaN	NaN	NaN	NaN	NaN	1950	Italian Grand Prix	7	pietsch	German	Maserati	Italian
+20175	23	27	0.0	NaN	NaN	NaN	NaN	NaN	1950	Italian Grand Prix	7	bonetto	Italian	Milano	Italian
+#Changing the datatypes of NaNs
+df.milliseconds=df.milliseconds.astype(float)
+df.fastest_lap_rank=df.fastest_lap_rank.astype(float)
+df.fastestLapSpeed=df.fastestLapSpeed.astype(float)
+#resetting the index after changes
+df.reset_index(drop=True, inplace=True)
+df.head()
+Starting_position	Finishing_position	points	time	milliseconds	fastest_lap_rank	fastestLapTime	fastestLapSpeed	year	gp_place	round	DriverName	driver_nationality	constructor_name	constructor_nationality
+0	1	1	26.0	1:37:33.584	5853584.0	1.0	1:34.570	206.018	2022	Bahrain Grand Prix	1	leclerc	Monegasque	Ferrari	Italian
+1	3	2	18.0	+5.598	5859182.0	3.0	1:35.740	203.501	2022	Bahrain Grand Prix	1	sainz	Spanish	Ferrari	Italian
+2	5	3	15.0	+9.675	5863259.0	5.0	1:36.228	202.469	2022	Bahrain Grand Prix	1	hamilton	British	Mercedes	German
+3	9	4	12.0	+11.211	5864795.0	6.0	1:36.302	202.313	2022	Bahrain Grand Prix	1	russell	British	Mercedes	German
+4	7	5	10.0	+14.754	5868338.0	8.0	1:36.623	201.641	2022	Bahrain Grand Prix	1	kevin_magnussen	Danish	Haas F1 Team	American
+#Shape
+print(df.shape)
+(25420, 15)
+df.info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 25420 entries, 0 to 25419
+Data columns (total 15 columns):
+ #   Column                   Non-Null Count  Dtype  
+---  ------                   --------------  -----  
+ 0   Starting_position        25420 non-null  int64  
+ 1   Finishing_position       25420 non-null  int64  
+ 2   points                   25420 non-null  float64
+ 3   time                     6892 non-null   object 
+ 4   milliseconds             6891 non-null   float64
+ 5   fastest_lap_rank         7171 non-null   float64
+ 6   fastestLapTime           6963 non-null   object 
+ 7   fastestLapSpeed          6963 non-null   float64
+ 8   year                     25420 non-null  int64  
+ 9   gp_place                 25420 non-null  object 
+ 10  round                    25420 non-null  int64  
+ 11  DriverName               25420 non-null  object 
+ 12  driver_nationality       25420 non-null  object 
+ 13  constructor_name         25420 non-null  object 
+ 14  constructor_nationality  25420 non-null  object 
+dtypes: float64(4), int64(4), object(7)
+memory usage: 2.9+ MB
+#Setting size and color for visuals
+sns.set_palette('Set3')
+plt.rcParams['figure.figsize']=10,6
+#Creating a GP Winners dataframe
+driver_winner=df.loc[df['Finishing_position']==1].groupby('DriverName')['Finishing_position'].count().sort_values(ascending=False).to_frame().reset_index()
+#Bar Plot
+sns.barplot(data=driver_winner, y='DriverName', x='Finishing_position', color='green', alpha=0.8)
+plt.title('Most GP Winners in F1')
+plt.ylabel('Driver Name')
+plt.xlabel('Number of GP Wins')
+plt.yticks([]) #avoid crowded/unreadable y labels
+([], [])
+
+#Bar Plot for winners in the last 3 years
+#Creating a GP Winners dataframe
+driver_winner_recent=df.loc[(df['Finishing_position']==1) & (df['year']>2019)].groupby('DriverName')['Finishing_position'].count().sort_values(ascending=False).to_frame().reset_index()
+sns.barplot(data=driver_winner_recent, y='DriverName', x='Finishing_position', color='green', alpha=0.8)
+plt.title('Most GP Winners in F1 since 2020')
+plt.ylabel('Driver Name')
+plt.xlabel('Number of GP Wins')
+Text(0.5, 0, 'Number of GP Wins')
+
+#Create a new dataframe for top 10 drivers
+top10Drivers=driver_winner.head(10)
+print(top10Drivers)
+           DriverName  Finishing_position
+0            hamilton                  92
+1  michael_schumacher                  91
+2              vettel                  52
+3               prost                  51
+4               senna                  41
+5              alonso                  32
+6      max_verstappen                  32
+7             mansell                  31
+8             stewart                  27
+9               clark                  25
+#top 10 drivers plot
+sns.barplot(data=top10Drivers, y='DriverName', x='Finishing_position', color='blue', alpha=0.7, linewidth=0.8, edgecolor='black')
+plt.title('Most GP Winners in F1')
+plt.ylabel('Driver Name')
+plt.xlabel('Number of GP Wins')
+Text(0.5, 0, 'Number of GP Wins')
+
+#top constructors
+cons_winner=df.loc[df['Finishing_position']==1].groupby('constructor_name')['Finishing_position'].count().sort_values(ascending=False).to_frame().reset_index()
+#Bar Plot
+sns.barplot(data=cons_winner, y='constructor_name', x='Finishing_position', color='red', alpha=0.8)
+plt.title('Most GP Winners in F1')
+plt.ylabel('Constructor')
+plt.xlabel('Number of GP Wins')
+plt.yticks([]) #avoid crowded/unreadable y labels
+([], [])
+
+#top 10 winner constructors
+top10Cons=cons_winner.head(10)
+print(top10Cons)
+  constructor_name  Finishing_position
+0          Ferrari                 240
+1          McLaren                 179
+2         Williams                 114
+3         Mercedes                 110
+4         Red Bull                  89
+5       Team Lotus                  45
+6          Renault                  35
+7         Benetton                  27
+8          Brabham                  23
+9          Tyrrell                  23
+#bar plot of top 10 constructors
+sns.barplot(data=top10Cons, x='Finishing_position', y='constructor_name', color='pink', alpha=0.9, edgecolor='black')
+plt.title('Ferrari dominated other constructors')
+plt.xlabel('Number of GP Wins')
+plt.ylabel('Constructor')
+#plt.yticks([]) #this deletes y values
+Text(0, 0.5, 'Constructor')
+
+#0 start position means driver started from pit lane
+df_no_zero=df[df['Starting_position'] !=0]
+
+#regression plot to display if 
+plt.figure(figsize = [12,7])
+sns.regplot(data=df_no_zero, x='Starting_position', y='Finishing_position', x_jitter=0.3, y_jitter=0.3, scatter_kws={'alpha':1/5})
+plt.title('Starting Position vs Finishing Position')
+plt.xlabel('Starting Position')
+plt.ylabel('Finishing Position')
+Text(0, 0.5, 'Finishing Position')
+
+#To answer Andrew's question,when is Mclaren's first win
+print(df_no_zero.loc[(df_no_zero['constructor_name']=='McLaren') & (df_no_zero['Finishing_position']==1)]['year'].min())
+1972
+#Speed data is available since 2004, creating a new dataframe to display if speed of cars changed
+df_speed=df[df['year']>=2004]
+#to_frame() converts dataset to dataframe
+df_group_speed=df_speed.groupby(['gp_place','year'])['fastestLapSpeed'].mean().to_frame().reset_index()
+
+#creating facetgrid
+fgrid=sns.FacetGrid(data=df_group_speed, col = 'gp_place', col_wrap=5)
+fgrid.map(plt.scatter, 'year','fastestLapSpeed', alpha=0.8, linewidth=0.8, edgecolor='red', s=100)
+fgrid.set_titles("{col_name}")
+fgrid.set_xlabels('Year')
+fgrid.set_ylabels('Average fastest speed (km/h)')
+plt.subplots_adjust(top=0.92)
+fgrid.fig.suptitle('Average of Fastest Lap Speed of All Teams Since 2004')
+Text(0.5, 0.98, 'Average of Fastest Lap Speed of All Teams Since 2004')
+
+df_group_speed.head()
+gp_place	year	fastestLapSpeed
+0	70th Anniversary Grand Prix	2020	234.248250
+1	Abu Dhabi Grand Prix	2009	198.041100
+2	Abu Dhabi Grand Prix	2010	193.559045
+3	Abu Dhabi Grand Prix	2011	189.779522
+4	Abu Dhabi Grand Prix	2012	187.682739
+df_italy=df_group_speed[df_group_speed['gp_place']=='Italian Grand Prix']
+#creating facetgrid
+fgrid=sns.FacetGrid(data=df_italy, col = 'gp_place', col_wrap=5)
+fgrid.map(plt.scatter, 'year','fastestLapSpeed', alpha=0.8, linewidth=0.8, edgecolor='red', s=100)
+fgrid.set_titles("{col_name}")
+fgrid.set_xlabels('Year')
+fgrid.set_ylabels('Average fastest speed (km/h)')
+plt.subplots_adjust(top=0.92)
+fgrid.fig.suptitle('Average of Fastest Lap Speed of All Teams Since 2004 in Italian GP')
+Text(0.5, 0.98, 'Average of Fastest Lap Speed of All Teams Since 2004 in Italian GP')
+
+ 
