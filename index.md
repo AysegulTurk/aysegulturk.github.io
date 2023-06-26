@@ -3,20 +3,26 @@
 ---
 
 ### Employee Retention Predictions 
-
 [Logistic Regression](/sample_page)
+
 With the current dataset, we can predict one employee's retention with 80% accuracy, it requires more data to increase the accuracy.
+
 <img src="images/empperformace.PNG?raw=true"/>
 
 ---
 ### Does Positive Speech about Climate Change Have Higher Success Rate?
 [A/B Testing](/pdf/sample_presentation.pdf)
+
+Although, the success rate of positive speech is higher than negative speech, it is not statistically significant.
+
 <img src="images/climate.PNG?raw=true"/>
 
 ---
 ### Formula 1 Performance Change over the Years
-
 [Descriptive Data Analytics](http://example.com/)
+
+Surprisingly, F1 cars had a dramatic performance loss in 2015 however it has been improving since then!
+
 <img src="images/f1pic.PNG?raw=true"/>
 
 ---
