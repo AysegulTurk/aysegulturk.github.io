@@ -17,7 +17,7 @@ With the current dataset, we can predict one employee's retention with 80% accur
 ### Formula 1 Performance Change over the Years
 
 [Descriptive Data Analytics](http://example.com/)
-<img src="images/F1pic.PNG?raw=true"/>
+<img src="images/f1pic.PNG?raw=true"/>
 
 ---
 
