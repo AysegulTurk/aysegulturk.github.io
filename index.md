@@ -24,7 +24,7 @@ Although, the success rate of positive speech is higher than negative speech, it
 Surprisingly, F1 cars had a dramatic performance loss in 2015 however it has been improving since then!
 
 <img src="images/f1pic.PNG?raw=true"/>
-
+[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Formula%201%20EDA%2C%20Exploratory%20Data%20Analysis%20(1).ipynb)
 ---
 
 ### Category Name 2
