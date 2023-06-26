@@ -6,7 +6,7 @@
 
 [Logistic Regression](/sample_page)
 With the current dataset, we can predict one employee's retention with 80% accuracy, it requires more data to increase the accuracy.
-<img src="images/empperfomace.PNG?raw=true"/>
+<img src="images/empperformace.PNG?raw=true"/>
 
 ---
 ### Does Positive Speech about Climate Change Have Higher Success Rate?
