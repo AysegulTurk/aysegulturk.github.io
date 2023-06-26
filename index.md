@@ -1,19 +1,23 @@
-## Portfolio
+## Selected Data Science Projects 
 
 ---
 
-### Category Name 1 
+### Employee Retention Predictions 
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Logistic Regression](/sample_page)
+With the current dataset, we can predict one employee's retention with 80% accuracy, it requires more data to increase the accuracy.
+<img src="images/empperfomace.PNG?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+### Does Positive Speech about Climate Change Have Higher Success Rate?
+[A/B Testing](/pdf/sample_presentation.pdf)
+<img src="images/climate.PNG?raw=true"/>
+
+---
+### Formula 1 Performance Change over the Years
+
+[Descriptive Data Analytics](http://example.com/)
+<img src="images/F1pic.PNG?raw=true"/>
 
 ---
 
