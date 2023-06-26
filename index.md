@@ -8,7 +8,7 @@
 With the current dataset, we can predict one employee's retention with 80% accuracy, it requires more data to increase the accuracy.
 
 <img src="images/empperformace.PNG?raw=true"/>
-
+[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Logistic%20Regression%20-%20Turn%20Over%20Rate.ipynb)
 ---
 ### Does Positive Speech about Climate Change Have Higher Success Rate?
 [A/B Testing](/pdf/sample_presentation.pdf)
@@ -16,7 +16,7 @@ With the current dataset, we can predict one employee's retention with 80% accur
 Although, the success rate of positive speech is higher than negative speech, it is not statistically significant.
 
 <img src="images/climate.PNG?raw=true"/>
-
+[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Climate%20Change%20Speech.ipynb)
 ---
 ### Formula 1 Performance Change over the Years
 [Descriptive Data Analytics](http://example.com/)
