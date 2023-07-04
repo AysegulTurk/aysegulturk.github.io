@@ -2,6 +2,14 @@
 
 ---
 
+### Weather Prediction for Solar Panels 
+[Markov Chain](/sample_page)
+
+Probability of having a sunny day if today is cloudy is 13.76%.  
+<img src="images/GraphView.png?raw=true"/>
+[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Markov%20Chain%20Prediction%20Weather%20for%20Solar%20Panels.ipynb)
+
+---
 ### Employee Retention Predictions 
 [Logistic Regression](/sample_page)
 
