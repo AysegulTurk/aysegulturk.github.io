@@ -17,6 +17,7 @@ With the current dataset, we can predict one employee's retention with 80% accur
 
 <img src="images/ViolinChart.PNG?raw=true"/>
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Logistic%20Regression%20-%20Turn%20Over%20Rate%20(1).ipynb)
+
 ---
 ### Does Positive Speech about Climate Change Have Higher Success Rate?
 [A/B Testing](/pdf/sample_presentation.pdf)
