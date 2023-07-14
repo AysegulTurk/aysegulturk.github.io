@@ -15,7 +15,7 @@ Probability of having a sunny day if today is cloudy is 13.76%.
 
 With the current dataset, we can predict one employee's retention with 80% accuracy, it requires more data to increase the accuracy.
 
-<img src="images/empperformace.PNG?raw=true"/>
+<img src="images/ViolinChart.PNG?raw=true"/>
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Logistic%20Regression%20-%20Turn%20Over%20Rate.ipynb)
 
 ---
