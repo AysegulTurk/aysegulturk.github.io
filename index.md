@@ -5,15 +5,12 @@
 ### Weather Prediction for Solar Panels 
 [Markov Chain](/sample_page)
 
-Probability of having a sunny day if today is cloudy is 13.76%.  
 <img src="images/GraphView.png?raw=true"/>
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Markov%20Chain%20Prediction%20Weather%20for%20Solar%20Panels.ipynb)
 
 ---
 ### Employee Retention Predictions 
 [Logistic Regression](/sample_page)
-
-With the current dataset, we can predict one employee's retention with 80% accuracy, it requires more data to increase the accuracy.
 
 <img src="images/ViolinChart.PNG?raw=true"/>
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Logistic%20Regression%20-%20Turn%20Over%20Rate%20(1).ipynb)
@@ -22,16 +19,12 @@ With the current dataset, we can predict one employee's retention with 80% accur
 ### Does Positive Speech about Climate Change Have Higher Success Rate?
 [A/B Testing](/pdf/sample_presentation.pdf)
 
-Although, the success rate of positive speech is higher than negative speech, it is not statistically significant.
-
 <img src="images/climate.PNG?raw=true"/>
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Climate%20Change%20Speech.ipynb)
 
 ---
 ### Formula 1 Performance Change over the Years
 [Descriptive Data Analytics](http://example.com/)
-
-Surprisingly, F1 cars had a dramatic performance loss in 2015 however it has been improving since then!
 
 <img src="images/F1NEWPIC.PNG?raw=true"/>
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Formula%201%20EDA%2C%20Exploratory%20Data%20Analysis%20(2).ipynb)
