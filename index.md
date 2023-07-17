@@ -20,8 +20,7 @@
 [A/B Testing](/pdf/sample_presentation.pdf)
 
 <img src="images/successrate.PNG?raw=true"/>
-[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Climate%20Change%20Speech.ipynb)
-
+[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Climate%20Change%20Speech%20(1).ipynb)
 ---
 ### Formula 1 Performance Change over the Years
 [Descriptive Data Analytics](http://example.com/)
