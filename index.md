@@ -16,7 +16,7 @@
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Logistic%20Regression%20-%20Turn%20Over%20Rate%20(1).ipynb)
 
 ---
-### Does Positive Speech about Climate Change Have Higher Success Rate?
+### Does Positive Speech about Climate Change Have Higher Success Rate at Convincing People to Take Actions?
 [A/B Testing](/pdf/sample_presentation.pdf)
 
 <img src="images/climate.PNG?raw=true"/>
