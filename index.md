@@ -21,13 +21,13 @@
 
 <img src="images/successrate.PNG?raw=true"/>
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Climate%20Change%20Speech%20(1).ipynb)
+
 ---
 ### Formula 1 Performance Change over the Years
 [Descriptive Data Analytics](http://example.com/)
 
 <img src="images/F1NEWPIC.PNG?raw=true"/>
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Formula%201%20EDA%2C%20Exploratory%20Data%20Analysis%20(2).ipynb)
-
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
