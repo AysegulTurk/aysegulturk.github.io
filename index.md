@@ -9,6 +9,13 @@
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Markov%20Chain%20Prediction%20Weather%20for%20Solar%20Panels.ipynb)
 
 ---
+### Decomposition of Average Temperature of Canada over Time and Forecasts of Temperature  
+[Time Series Analysis and Forecast](/sample_page)
+
+<img src="images/ViolinChart.PNG?raw=true"/>
+[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Logistic%20Regression%20-%20Turn%20Over%20Rate%20(1).ipynb)
+
+---
 ### Employee Retention Predictions 
 [Logistic Regression](/sample_page)
 
