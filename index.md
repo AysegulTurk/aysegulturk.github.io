@@ -13,7 +13,7 @@
 [Time Series Analysis, Data Decomposition](/sample_page)
 
 <img src="images/box plots of temp.PNG?raw=true"/>
-[View on Github](Earth Temperature and CO2 Emission Time Series Analysis.ipynb)
+[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Earth%20Temperature%20and%20CO2%20Emission%20Time%20Series%20Analysis.ipynb)
 
 ---
 ### Decomposition of Average Temperature of Canada over Time and Forecasts of Temperature  
