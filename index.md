@@ -9,6 +9,13 @@
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Markov%20Chain%20Prediction%20Weather%20for%20Solar%20Panels.ipynb)
 
 ---
+### Earth Temperature & CO2 Emission Time Series Analysis   
+[Time Series Analysis, Data Decomposition](/sample_page)
+
+<img src="images/box plots of temp.PNG?raw=true"/>
+[View on Github](Earth Temperature and CO2 Emission Time Series Analysis.ipynb)
+
+---
 ### Decomposition of Average Temperature of Canada over Time and Forecasts of Temperature  
 [Time Series Analysis and Forecast](/sample_page)
 
