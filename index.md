@@ -9,6 +9,7 @@
 ---
 ### Hourly Energy Consumption Time Series Analysis and Forecasts (ARIMA, SARIMA)
 <img src="images/energy consumption box plots.png?raw=true"/>
+<img src="images/energy consumption arima model.png?raw=true"/>
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Hourly%20Energy%20Consumption%20Time%20Series%20Analysis%20and%20Forecasting%20.ipynb)
 
 ---
