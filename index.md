@@ -17,7 +17,7 @@
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Hourly%20Energy%20Consumption%20Time%20Series%20Analysis%20and%20Forecasting%20.ipynb)
 
 ---
-### Does Positive Speech about Climate Change Have Higher Success Rate at Convincing People to Take Actions?
+### A/B Testing Does Positive Speech about Climate Change Have Higher Success Rate at Convincing People to Take Actions?
 <img src="images/successrate.PNG?raw=true"/>
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Climate%20Change%20Speech%20(1).ipynb)
 
