@@ -3,7 +3,7 @@
 ---
 ### California Renewable Energy Production Analysis and Forecast 
 <img src="images/california.PNG?raw=true"/>
-[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Wind%20Power%20Predictions.ipynb)
+[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/California%20Renewable%20Energy%20Production.ipynb)
 
 ---
 ### Weather Prediction Markov Chain Simulation for Solar Panels 
