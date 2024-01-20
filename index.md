@@ -1,5 +1,8 @@
 ## Selected Data Science Projects 
-
+---
+### Global Temperature Changes Analysis and Interactive Visualisations 
+<img src="images/california.PNG?raw=true"/>
+[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Global%20Temperature%20Change%20Interactive%20Visuals.ipynb)
 ---
 ### California Renewable Energy Production Analysis and Forecast 
 <img src="images/california.PNG?raw=true"/>
