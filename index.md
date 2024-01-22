@@ -15,6 +15,12 @@
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Markov%20Chain%20Prediction%20Weather%20for%20Solar%20Panels.ipynb)
 
 ---
+---
+### Linear Regression on Yearly Spent Amount by Customers    
+<img src="images/linear_reg_evalution.PNG?raw=true"/>
+[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Predictions%20with%20Linear%20Regression.ipynb)
+
+---
 ### Time Series Analysis and Forecasts on Hourly Energy Consumption (ARIMA, SARIMA)
 <img src="images/energy consumption box plots.png?raw=true"/>
 <img src="images/energy consumption arima model.png?raw=true"/>
