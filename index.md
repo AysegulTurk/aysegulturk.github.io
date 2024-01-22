@@ -16,7 +16,7 @@
 
 ---
 ### Predictions with Linear Regression on Yearly Spent Amount by Customers    
-<img src="images/linear_reg_evalaution.PNG?raw=true"/>
+<img src="images/linear_reg_evaluation.PNG?raw=true"/>
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Predictions%20with%20Linear%20Regression.ipynb)
 
 ---
