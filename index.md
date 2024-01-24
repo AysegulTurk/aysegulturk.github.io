@@ -20,6 +20,11 @@
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Predictions%20with%20Linear%20Regression.ipynb)
 
 ---
+### Click on Ads Predictions with Logistic Regression 
+<img src="images/logistic reg.PNG?raw=true"/>
+[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Click%20on%20Ads%20Predictions%20with%20Logistic%20Regression.ipynb)
+
+---
 ### Time Series Analysis and Forecasts on Hourly Energy Consumption (ARIMA, SARIMA)
 <img src="images/energy consumption box plots.png?raw=true"/>
 <img src="images/energy consumption arima model.png?raw=true"/>
