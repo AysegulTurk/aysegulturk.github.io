@@ -21,7 +21,7 @@
 
 ---
 ### Click on Ads Predictions with Logistic Regression 
-<img src="images/logistic reg.PNG?raw=true"/>
+<img src="images/logistic reg.png?raw=true"/>
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Click%20on%20Ads%20Predictions%20with%20Logistic%20Regression.ipynb)
 
 ---
