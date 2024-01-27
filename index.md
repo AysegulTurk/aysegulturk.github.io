@@ -10,7 +10,7 @@ Roughly 1 degree Celcius increase in global average surface temperature that has
 
  ![Static Badge](https://img.shields.io/badge/Python-Blue?style=plastic&logo=Python&logoColor=Blue&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Jupyter%20Notebook-%20white?style=plastic&logo=Jupyter&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/IPython-%20white?style=plastic&logo=Python&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Climate%20Change%20-%20Blue?style=plastic&labelColor=Blue&color=grey).
 
-[View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Global%20Temperature%20Change%20Interactive%20Visuals.ipynb))
+[View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Global%20Temperature%20Change%20Interactive%20Visuals.ipynb)
 
 ---
 ### California Renewable Energy Production Analysis and Forecast 
