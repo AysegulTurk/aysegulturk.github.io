@@ -21,13 +21,7 @@ Renewable energy production in California has tripled since 2010, the main contr
 
  ![Static Badge](https://img.shields.io/badge/Python-Blue?style=plastic&logo=Python&logoColor=Blue&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Jupyter%20Notebook-%20white?style=plastic&logo=Jupyter&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Energy%20Time%20Series%20Analysis%20-%20white?style=plastic&logo=Time%20Series&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Ipwidgets%20-%20white?style=plastic&logo=Python&logoColor=light%20grey&labelColor=Blue&color=grey)
 
-[View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Global%20Temperature%20Change%20Interactive%20Visuals.ipynb)
-
----
-### California Renewable Energy Production Analysis and Forecast 
-saa
-<img src="images/california.PNG?raw=true"/>
-[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/California%20Renewable%20Energy%20Production.ipynb)
+[View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/California%20Renewable%20Energy%20Production.ipynb)
 
 ---
 ### Weather Prediction with Markov Chain Simulation for Solar Panels 
