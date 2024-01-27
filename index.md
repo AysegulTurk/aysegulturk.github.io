@@ -6,7 +6,7 @@
 
 Roughly 1 degree Celcius increase in global average surface temperature that has occured since the pre-industrial era(1850-1900) that might seem small however its impact is devastating for your only home. In this project, I visualized the change in global average temprature from pre-industrial era to 2021 overall and location based, as well as damage caused by 1 degree temprature change on icebergs in Antartica, Tibetian Plateau and Grand Plateau Glacier with Ipython.
 
-<img src="Global Temperature Change.PNG?raw=true"/>
+<img src="images/Global Temperature Change.PNG?raw=true"/>
 
  ![Static Badge](https://img.shields.io/badge/Python-Blue?style=plastic&logo=Python&logoColor=Blue&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Jupyter%20Notebook-%20white?style=plastic&logo=Jupyter&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/IPython-%20white?style=plastic&logo=Python&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Climate%20Change%20-%20Blue?style=plastic&labelColor=Blue&color=grey).
 
