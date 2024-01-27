@@ -24,11 +24,19 @@ Renewable energy production in California has tripled since 2010, the main contr
 [View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/California%20Renewable%20Energy%20Production.ipynb)
 
 ---
-### Weather Prediction with Markov Chain Simulation for Solar Panels 
-<img src="images/GraphView.png?raw=true"/>
-[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Markov%20Chain%20Prediction%20Weather%20for%20Solar%20Panels.ipynb)
+### Markov Chain Simulation to Predict Weather for Solar Energy Production
+
+Solar panels need sunlight to produce electricity, when it is cloudy, it produces less electricity or none. This variability makes maintaining a stable and reliable green energy production more complex. In this project, I created a  Markov chain stochastic modelling to predict the weather conditions for solar energy production.
+
+<img src="images/markov chain.png?raw=true"/>
+
+ ![Static Badge](https://img.shields.io/badge/Python-Blue?style=plastic&logo=Python&logoColor=Blue&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Jupyter%20Notebook-%20white?style=plastic&logo=Jupyter&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Stochastic%20Modelling%20-%20white?style=plastic&logoColor=light%20grey&labelColor=Blue&color=grey)
+![Static Badge](https://img.shields.io/badge/Weather%20Prediction%20-%20white?style=plastic&logoColor=light%20grey&labelColor=Blue&color=grey)
+
+[View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Markov%20Chain%20Prediction%20Weather%20for%20Solar%20Panels.ipynb)
 
 ---
+
 ### Predictions with Linear Regression on Yearly Spent Amount by Customers    
 <img src="images/linear_reg_evaluation.PNG?raw=true"/>
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Predictions%20with%20Linear%20Regression.ipynb)
