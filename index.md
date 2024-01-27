@@ -1,4 +1,4 @@
-## Selected Data Science Projects 
+## Selected Data Science and Machine Learning Projects 
 ---
 ### Global Temperature Changes Analysis and Interactive Visualisations 
 <img src="images/global temperature visuals2.PNG?raw=true"/>
