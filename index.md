@@ -40,7 +40,7 @@ Solar panels need sunlight to produce electricity, when it is cloudy, it produce
 
 Accurate sales forecasting can help businesses anticipate future demand, identify potential problems such as stock out, or opportunities (sell more!) and adjust their strategies accordingly. In this project, I applied statistical analysis on variables that impact sales as well as historical sales figures themselves, such as correlation between variables by handling multicolinearity. And finally, predicted future sales and evaluated the prediction model.  
 
-img src="images/linear regression pictures.PNG?raw=true"/>
+<img src="images/linear regression pictures.PNG?raw=true"/>
 
  ![Static Badge](https://img.shields.io/badge/Python-Blue?style=plastic&logo=Python&logoColor=Blue&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Jupyter%20Notebook-%20white?style=plastic&logo=Jupyter&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Sklearn%20%20-white?style=plastic&logo=scikit%20learn&logoColor=blue&color=grey)
  ![Static Badge](https://img.shields.io/badge/Sales%20Forecast%20-white?style=plastic&color=grey)
