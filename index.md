@@ -8,7 +8,7 @@ Roughly 1 degree Celcius increase in global average surface temperature that has
 
 <img src="images/Global Temperature Change.PNG?raw=true"/>
 
- ![Static Badge](https://img.shields.io/badge/Python-Blue?style=plastic&logo=Python&logoColor=Blue&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Jupyter%20Notebook-%20white?style=plastic&logo=Jupyter&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/IPython-%20white?style=plastic&logo=Python&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Climate%20Change%20-%20Blue?style=plastic&labelColor=Blue&color=grey).
+ ![Static Badge](https://img.shields.io/badge/Python-Blue?style=plastic&logo=Python&logoColor=Blue&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Jupyter%20Notebook-%20white?style=plastic&logo=Jupyter&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/IPython-%20white?style=plastic&logo=Python&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Climate%20Change%20-%20Blue?style=plastic&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Climate%20Change%20-white?style=plastic&color=grey)
 
 [View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Global%20Temperature%20Change%20Interactive%20Visuals.ipynb)
 
@@ -19,7 +19,7 @@ Renewable energy production in California has tripled since 2010, the main contr
 
 <img src="images/California Renewable Energy Production.PNG?raw=true"/>
 
- ![Static Badge](https://img.shields.io/badge/Python-Blue?style=plastic&logo=Python&logoColor=Blue&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Jupyter%20Notebook-%20white?style=plastic&logo=Jupyter&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Energy%20Time%20Series%20Analysis%20-%20white?style=plastic&logo=Time%20Series&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Ipwidgets%20-%20white?style=plastic&logo=Python&logoColor=light%20grey&labelColor=Blue&color=grey)
+ ![Static Badge](https://img.shields.io/badge/Python-Blue?style=plastic&logo=Python&logoColor=Blue&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Jupyter%20Notebook-%20white?style=plastic&logo=Jupyter&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Energy%20Time%20Series%20Analysis%20-%20white?style=plastic&logo=Time%20Series&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Ipwidgets%20-%20white?style=plastic&logo=Python&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Climate%20Change%20-white?style=plastic&color=grey)
 
 [View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/California%20Renewable%20Energy%20Production.ipynb)
 
@@ -31,7 +31,7 @@ Solar panels need sunlight to produce electricity, when it is cloudy, it produce
 <img src="images/markov chain.png?raw=true"/>
 
  ![Static Badge](https://img.shields.io/badge/Python-Blue?style=plastic&logo=Python&logoColor=Blue&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Jupyter%20Notebook-%20white?style=plastic&logo=Jupyter&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Stochastic%20Modelling%20-%20white?style=plastic&logoColor=light%20grey&labelColor=Blue&color=grey)
-![Static Badge](https://img.shields.io/badge/Weather%20Prediction%20-%20white?style=plastic&logoColor=light%20grey&labelColor=Blue&color=grey)
+![Static Badge](https://img.shields.io/badge/Weather%20Prediction%20-%20white?style=plastic&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Climate%20Change%20-white?style=plastic&color=grey)
 
 [View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Markov%20Chain%20Prediction%20Weather%20for%20Solar%20Panels.ipynb)
 
@@ -60,21 +60,23 @@ It is crucial to understand your customers' profile and target the right custome
 [View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Click%20on%20Ads%20Predictions%20with%20Logistic%20Regression.ipynb)
 
 ---
+### A/B Testing on How Communication Style Impact People to Take Climate Action 
 
-### Click on Ads Predictions with Logistic Regression 
-<img src="images/logistic reg.png?raw=true"/>
-[View on Github]
+It is not what you but how you say it! Is it actually true? In this project, i analyzed if optimistic speech about climate change is more effective than pessimistic approach to make people take climate action by cleaning and tranforming data with feature engineering for machine learning algorithm. Unfortunately, according to bayesian hypothesis testing, there is no statistical difference between optimistic and pessimistic approach to make people take climate action. 
+
+<img src="images/AB Testing pics.PNG?raw=true"/>
+
+ ![Static Badge](https://img.shields.io/badge/Python-Blue?style=plastic&logo=Python&logoColor=Blue&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Jupyter%20Notebook-%20white?style=plastic&logo=Jupyter&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Scipy%20-white?style=plastic&logo=Scipy&logoColor=Green&color=grey)
+ ![Static Badge](https://img.shields.io/badge/Statsmodel%20-white?style=plastic&logo=Statsmodel&logoColor=Green&color=grey) ![Static Badge](https://img.shields.io/badge/Hypothesis%20testing%20-white?style=plastic&color=grey)
+![Static Badge](https://img.shields.io/badge/Climate%20Change%20-white?style=plastic&color=grey)
+ 
+[View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Climate%20Change%20Speech%20(1).ipynb)
 
 ---
 ### Time Series Analysis and Forecasts on Hourly Energy Consumption (ARIMA, SARIMA)
 <img src="images/energy consumption box plots.png?raw=true"/>
 <img src="images/energy consumption arima model.png?raw=true"/>
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Hourly%20Energy%20Consumption%20Time%20Series%20Analysis%20and%20Forecasting%20.ipynb)
-
----
-### A/B Testing Does Positive Speech about Climate Change Have Higher Success Rate at Convincing People to Take Actions?
-<img src="images/successrate.PNG?raw=true"/>
-[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Climate%20Change%20Speech%20(1).ipynb)
 
 ---
 ### Time Series Analysis on Earth Temperature & CO2 Emission   
