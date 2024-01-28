@@ -82,16 +82,16 @@ Energy consumption predictions allow companies to manage their production and be
 [View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Hourly%20Energy%20Consumption%20Time%20Series%20Analysis%20and%20Forecasting%20.ipynb)
 
 ---
-### Time Series Analysis on Earth Temperature & CO2 Emission   
-<img src="images/box plots of temp.PNG?raw=true"/>
-[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Earth%20Temperature%20and%20CO2%20Emission%20Time%20Series%20Analysis.ipynb)
+### Time Series Analysis on Earth Temperature and Co2 Emissions
+In this project, I visualized the Co2 emission and temperature changes from 1960 to 2010. I transformed and applied aggregation functions to data. Later, I decomposed the data to identify trends, seasonality and residuals at Co2 levels. 
+<img src="images/co2.PNG?raw=true"/>
+
+ ![Static Badge](https://img.shields.io/badge/Python-Blue?style=plastic&logo=Python&logoColor=Blue&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Jupyter%20Notebook-%20white?style=plastic&logo=Jupyter&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Scipy%20-white?style=plastic&logo=Scipy&logoColor=Green&color=grey)
+ ![Static Badge](https://img.shields.io/badge/Statsmodel%20-white?style=plastic&logo=Statsmodel&logoColor=Green&color=grey) ![Static Badge](https://img.shields.io/badge/Time%20Series%20Analysis%20-white?style=plastic&color=grey) ![Static Badge](https://img.shields.io/badge/Climate%20Change%20-white?style=plastic&color=grey)
+ 
+[View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Earth%20Temperature%20and%20CO2%20Emission%20Time%20Series%20Analysis.ipynb)
 
 ---
 
-### Explotory Data Analysis on Formula 1 Performance
-<img src="images/F1NEWPIC.PNG?raw=true"/>
-[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Formula%201%20EDA%2C%20Exploratory%20Data%20Analysis%20(2).ipynb)
-
----
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
