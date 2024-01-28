@@ -73,10 +73,13 @@ It is not what you but how you say it! Is it actually true? In this project, i a
 [View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Climate%20Change%20Speech%20(1).ipynb)
 
 ---
-### Time Series Analysis and Forecasts on Hourly Energy Consumption (ARIMA, SARIMA)
-<img src="images/energy consumption box plots.png?raw=true"/>
-<img src="images/energy consumption arima model.png?raw=true"/>
-[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Hourly%20Energy%20Consumption%20Time%20Series%20Analysis%20and%20Forecasting%20.ipynb)
+### Hourly Energy Consumption Predictions (ARIMA, SARIMA)
+Energy consumption predictions allow companies to manage their production and be prepared for unexpected high demand. In this project, I imputed missing values with interpolation, conducted seasonal data decomposition and finally developed hourly demand prediction models.  
+<img src="images/arime pics3.PNG?raw=true"/>
+
+ ![Static Badge](https://img.shields.io/badge/Python-Blue?style=plastic&logo=Python&logoColor=Blue&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Jupyter%20Notebook-%20white?style=plastic&logo=Jupyter&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Energy%20Demand%20Predictions%20-white?style=plastic&color=grey) ![Static Badge](https://img.shields.io/badge/Time%20Series%20Analysis%20-white?style=plastic&color=grey)
+ 
+[View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Hourly%20Energy%20Consumption%20Time%20Series%20Analysis%20and%20Forecasting%20.ipynb)
 
 ---
 ### Time Series Analysis on Earth Temperature & CO2 Emission   
@@ -84,11 +87,7 @@ It is not what you but how you say it! Is it actually true? In this project, i a
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Earth%20Temperature%20and%20CO2%20Emission%20Time%20Series%20Analysis.ipynb)
 
 ---
-### Logistic Regression Employee Retention Predictions 
-<img src="images/ViolinChart.PNG?raw=true"/>
-[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Logistic%20Regression%20-%20Turn%20Over%20Rate%20(1).ipynb)
 
----
 ### Explotory Data Analysis on Formula 1 Performance
 <img src="images/F1NEWPIC.PNG?raw=true"/>
 [View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Formula%201%20EDA%2C%20Exploratory%20Data%20Analysis%20(2).ipynb)
