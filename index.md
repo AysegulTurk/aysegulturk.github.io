@@ -4,7 +4,7 @@
 
 ### Analysis and Interactive Visualisations on Global Temperature Change
 
-Roughly 1 degree Celcius increase in global average surface temperature that has occured since the pre-industrial era(1850-1900) that might seem small however its impact is devastating for your only home. In this project, I visualized the change in global average temprature from pre-industrial era to 2021 overall and location based, as well as damage caused by 1 degree temprature change on icebergs in Antartica, Tibetian Plateau and Grand Plateau Glacier with Ipython.
+Roughly 1 degree Celcius increase in global average surface temperature that has occured since the pre-industrial era(1850-1900) that might seem small however its impact is devastating. In this project, I analysed and visualized the temperature change from pre-industrial era to 2021, as well as the damage caused by global warming on icebergs in Antartica, Tibetian Plateau and Grand Plateau Glacier with Ipython.
 
 <img src="images/Global Temperature Change.PNG?raw=true"/>
 
