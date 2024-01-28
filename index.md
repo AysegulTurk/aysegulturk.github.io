@@ -49,15 +49,21 @@ Accurate sales forecasting can help businesses anticipate future demand, identif
 [View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Predictions%20with%20Linear%20Regression.ipynb)
 
 ---
+### Ads Click Prediction with Logistic Regression Model
 
-### Predictions with Linear Regression on Yearly Spent Amount by Customers    
-<img src="images/linear_reg_evaluation.PNG?raw=true"/>
-[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Predictions%20with%20Linear%20Regression.ipynb)
+It is crucial to understand your customers' profile and target the right customer segment for advertisements. Advertisements that have the most elevated to be clicked are chosen using supervised machine learning calculation. In this project, I completed Exploratory Data Analysis on customer data and performed feature engineering to prepare the data for machine learning algorithm. I was able to predict if a customer will click the ads with 0.9 F score. 
+
+<img src="images/logistic regression pics.PNG?raw=true"/>
+
+ ![Static Badge](https://img.shields.io/badge/Python-Blue?style=plastic&logo=Python&logoColor=Blue&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Jupyter%20Notebook-%20white?style=plastic&logo=Jupyter&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Sklearn%20%20-white?style=plastic&logo=scikit%20learn&logoColor=blue&color=grey) ![Static Badge](https://img.shields.io/badge/Feature%20Engineering%20-white?style=plastic&color=grey) ![Static Badge](https://img.shields.io/badge/Logistic%20Regression%20-white?style=plastic&color=grey)
+ 
+[View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Click%20on%20Ads%20Predictions%20with%20Logistic%20Regression.ipynb)
 
 ---
+
 ### Click on Ads Predictions with Logistic Regression 
 <img src="images/logistic reg.png?raw=true"/>
-[View on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Click%20on%20Ads%20Predictions%20with%20Logistic%20Regression.ipynb)
+[View on Github]
 
 ---
 ### Time Series Analysis and Forecasts on Hourly Energy Consumption (ARIMA, SARIMA)
