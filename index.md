@@ -26,7 +26,7 @@ Renewable energy production in California has tripled since 2010, the main contr
 ---
 ### Markov Chain Simulation to Predict Weather for Solar Energy Production
 
-Solar panels need sunlight to produce electricity, when it is cloudy, it produces less electricity or none. This variability makes maintaining a stable and reliable green energy production more complex. In this project, I created a  Markov chain stochastic modelling to predict the weather conditions for solar energy production.
+Solar panels need sunlight to produce electricity, when it is cloudy, it produces less electricity or none. This variability makes maintaining a stable and reliable green energy production more complex. In this project, I created a  Markov chain stochastic model to predict the weather conditions for solar energy production.
 
 <img src="images/markov chain.png?raw=true"/>
 
