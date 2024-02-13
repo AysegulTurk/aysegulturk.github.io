@@ -8,7 +8,7 @@ A wind power forecast corresponds to an estimate of the expected production of o
 
  ![Static Badge](https://img.shields.io/badge/Python-Blue?style=plastic&logo=Python&logoColor=Blue&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Jupyter%20Notebook-%20white?style=plastic&logo=Jupyter&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/IPython-%20white?style=plastic&logo=Python&logoColor=light%20grey&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Climate%20Change%20-%20Blue?style=plastic&labelColor=Blue&color=grey) ![Static Badge](https://img.shields.io/badge/Climate%20Change%20-white?style=plastic&color=grey)
 
-[View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Wind%20Power%20Forecast%20Project%20-%20part%201%20EDA%20.ipynb))
+[View code on Github](https://github.com/AysegulTurk/aysegulturk.github.io/blob/master/Wind%20Power%20Forecast%20Project%20-%20part%201%20EDA%20.ipynb)
 
 ---
 ### Analysis and Interactive Visualisations on Global Temperature Change
